@@ -22,20 +22,26 @@
       padding:0.5rem 0.9rem!important;
     }
   }
-  @media screen and (max-width: 425px) {
-    .nav-link{
-      font-size: 11px!important;
-    }
-    .dropdown-item{
-      font-size: 11px!important;
-    }
-    .line-in{
-      font-size: 11px!important; 
-    }
-    .btn{
-      font-size: 11px!important;
-    }
-    .home_slider .item .content h1 {
-      font-size: 2rem!important;
-    }
+@media screen and (max-width: 425px) {
+  .nav-link{
+    font-size: 11px!important;
   }
+  .dropdown-item{
+    font-size: 11px!important;
+  }
+  .line-in{
+    font-size: 11px!important; 
+  }
+  .btn{
+    font-size: 11px!important;
+  }
+  .home_slider .item .content h1 {
+    font-size: 2rem!important;
+  }
+}
+
+.LandingPageButton{
+  background-color: #f36259!important;
+  border-radius: 10px!important;
+}
+
